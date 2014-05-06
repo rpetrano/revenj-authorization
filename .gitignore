@@ -1,0 +1,10 @@
+*
+!*/
+
+!*.cs
+!*.sln
+!*.csproj
+!bin/Debug/Revenj.Authorization.dll
+!Dependencies/**
+!.gitignore
+obj
