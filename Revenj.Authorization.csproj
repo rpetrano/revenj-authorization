@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{DF7CFB26-1243-44DA-92D7-D907DD19BA45}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>BspClientAuth</RootNamespace>
+    <RootNamespace>Revenj.Authorization</RootNamespace>
     <AssemblyName>Revenj.Authorization</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -42,8 +42,11 @@
       <HintPath>Dependencies\NGS.Security.Interface.dll</HintPath>
     </Reference>
     <Reference Include="Revenj.Http">
-      <HintPath>Dependencies\Revenj.Http.dll</HintPath>
+      <HintPath>Dependencies\Revenj.Http.exe</HintPath>
     </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceModel" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +55,8 @@
     <Compile Include="Authentication.cs" />
     <Compile Include="Auth.cs" />
     <Compile Include="PermissionManager.cs" />
+    <Compile Include="LoginValidator.cs" />
+    <Compile Include="AuthorizationPolicy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

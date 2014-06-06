@@ -1,9 +1,9 @@
+using System;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Security.Principal;
 using NGS.Extensibility;
 using NGS.Security;
-using System.Linq;
-using System.Security.Principal;
-using System;
-using System.Linq.Expressions;
 
 namespace Revenj.Authorization
 {

@@ -1,6 +1,5 @@
 using System.Security.Principal;
 
-
 namespace Revenj.Authorization
 {
 	class Principal: IPrincipal
@@ -24,4 +23,3 @@ namespace Revenj.Authorization
 		}
 	}
 }
-

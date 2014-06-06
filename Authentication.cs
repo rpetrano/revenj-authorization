@@ -1,8 +1,8 @@
 using System;
-using NGS.Security;
 using System.Configuration;
-using System.Security;
 using System.Runtime.InteropServices;
+using System.Security;
+using NGS.Security;
 
 namespace Revenj.Authorization
 {
@@ -31,4 +31,3 @@ namespace Revenj.Authorization
 	}
 
 }
-
