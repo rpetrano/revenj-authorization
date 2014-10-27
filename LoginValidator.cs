@@ -1,6 +1,6 @@
 using System;
 using System.IdentityModel.Selectors;
-using NGS.Security;
+using Revenj.Security;
 
 namespace Revenj.Authorization
 {

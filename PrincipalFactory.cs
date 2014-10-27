@@ -1,5 +1,5 @@
 using System.Security.Principal;
-using NGS.Security;
+using Revenj.Security;
 
 namespace Revenj.Authorization
 {

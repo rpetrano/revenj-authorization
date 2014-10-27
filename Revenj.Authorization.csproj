@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -29,18 +29,18 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Revenj.Extensibility.Interface">
+      <HintPath>Dependencies\Revenj.Extensibility.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Revenj.Security">
+      <HintPath>Dependencies\Revenj.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Revenj.Security.Interface">
+      <HintPath>Dependencies\Revenj.Security.Interface.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="NGS.Extensibility.Interface">
-      <HintPath>Dependencies\NGS.Extensibility.Interface.dll</HintPath>
-    </Reference>
-    <Reference Include="NGS.Security">
-      <HintPath>Dependencies\NGS.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="NGS.Security.Interface">
-      <HintPath>Dependencies\NGS.Security.Interface.dll</HintPath>
-    </Reference>
     <Reference Include="Revenj.Http">
       <HintPath>Dependencies\Revenj.Http.exe</HintPath>
     </Reference>

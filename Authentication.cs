@@ -2,7 +2,7 @@ using System;
 using System.Configuration;
 using System.Runtime.InteropServices;
 using System.Security;
-using NGS.Security;
+using Revenj.Security;
 
 namespace Revenj.Authorization
 {

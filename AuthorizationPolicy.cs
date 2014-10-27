@@ -6,7 +6,7 @@ using System.Net;
 using System.Security.Principal;
 using System.ServiceModel.Web;
 using System.Text;
-using NGS.Security;
+using Revenj.Security;
 
 namespace Revenj.Authorization
 {
